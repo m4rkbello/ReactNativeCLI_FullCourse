@@ -24,8 +24,27 @@ const App = () => {
       <Text style={{ fontSize: 30 }}>{fname + " " + lname}</Text>
       <Text style={{ fontSize: 30 }}>{data === 30 ? "TAMA ANG BOANG!" : "AYAW KOL!"}</Text>
 
+
+      {
+        data < 30 ?
+          <Text style={{ fontSize: 30 }}>OHAHAY!</Text>
+          :
+          <Text style={{ fontSize: 30 }}>AYAW KOL!!</Text>
+      }
+      <UserData />
+
     </View>
   );
+};
+
+const UserData = () => {
+  return (
+    <View>
+      <Text style={{ fontSize: 30 }}>REUSABLE COMPONENT</Text>
+      <Text style={{ fontSize: 30 }}>Name: PAT</Text>
+      <Text style={{ fontSize: 30 }}>Name: TOTOYA</Text>
+    </View>
+  )
 }
 
 export default App;
