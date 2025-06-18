@@ -6,8 +6,8 @@ const ComponentData = () => {
     return (
         <View>
             <Text style={{ fontSize: 30 }}>REUSABLE COMPONENT</Text>
-            <Text style={{ fontSize: 30 }}>Name: PAT</Text>
-            <Text style={{ fontSize: 30 }}>Name: TOTOYA</Text>
+            <Text style={{ fontSize: 30 }}>Name: PAUL</Text>
+            <Text style={{ fontSize: 30 }}>Name: JORGE</Text>
         </View>
     )
 }
