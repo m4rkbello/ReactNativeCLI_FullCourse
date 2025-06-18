@@ -3,6 +3,7 @@ import { Text, View, Button, ScrollView } from 'react-native';
 import ComponentData from "./components/ComponentData";
 import ButtonAndOnPressEvents from "./components/ButtonAndOnPress";
 import UseStateComponent from "./components/UseStateComponent";
+import PropsParentComponent from "./components/PropsComponent";
 
 const App = () => {
 
@@ -55,9 +56,9 @@ const App = () => {
         <ListProgrammers />
         <ButtonAndOnPressEvents />
         <UseStateComponent />
+        <PropsParentComponent />
 
       </ScrollView>
-
     </View>
   );
 };
