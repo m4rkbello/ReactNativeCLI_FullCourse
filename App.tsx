@@ -1,11 +1,18 @@
-import React, { JSX } from 'react';
-import { View, Text } from 'react-native';
+import React from "react";
+import { Text, View, Button } from 'react-native';
 
 
-function App(): JSX.Element {
+const App = () => {
   return (
     <View>
-      <Text style={{ fontSize: 30 }}>ULOL HAHAHA!!!</Text>
+
+      <Text style={{ fontSize: 50 }}>
+        ULOL  HAHAAAA!
+      </Text>
+      <Text style={{ fontSize: 50 }}>
+        PADAYON BUGO!
+      </Text>
+      <Button title='CLICK ME' color={"violet"} />
     </View>
   );
 }
