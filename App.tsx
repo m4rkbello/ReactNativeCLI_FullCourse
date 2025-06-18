@@ -1,5 +1,6 @@
 import React from "react";
 import { Text, View, Button } from 'react-native';
+import ComponentData from "./components/ComponentData";
 
 const App = () => {
 
@@ -31,20 +32,24 @@ const App = () => {
           :
           <Text style={{ fontSize: 30 }}>AYAW KOL!!</Text>
       }
-      <UserData />
-
+      <ComponentData />
+      <ListProgrammers />
     </View>
   );
 };
 
-const UserData = () => {
+
+
+const ListProgrammers = () => {
   return (
     <View>
-      <Text style={{ fontSize: 30 }}>REUSABLE COMPONENT</Text>
-      <Text style={{ fontSize: 30 }}>Name: PAT</Text>
-      <Text style={{ fontSize: 30 }}>Name: TOTOYA</Text>
+      <Text style={{ fontSize: 30 }}>MARK BELLO 1</Text>
+      <Text style={{ fontSize: 30 }}>MARK BELLO 2</Text>
+      <Text style={{ fontSize: 30 }}>MARK BELLO 3</Text>
+      <ComponentData />
     </View>
   )
 }
+
 
 export default App;
