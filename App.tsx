@@ -1,10 +1,10 @@
 import { View, Text } from 'react-native';
 
 
-function App() {
+const App = () => {
   return (
     <View>
-      <Text>HELLO REACT NATIVE!</Text>
+      <Text style={{ fontSize: 30 }}>ULOL HAHAHA!!!</Text>
     </View>
   )
 }
