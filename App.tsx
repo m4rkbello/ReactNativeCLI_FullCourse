@@ -8,6 +8,7 @@ import StyleComponent from "./components/StylesComponent";
 import TextInputComponent from "./components/TextInputComponent";
 import FormComponent from "./components/FormComponent";
 import FlatListComponent from "./components/FlatListComponent";
+import CustomListComponent from "./components/CustomListComponent";
 
 const App = () => {
 
@@ -69,6 +70,7 @@ const App = () => {
         <TextInputComponent /> */}
         {/* <FormComponent /> */}
         {/* <FlatListComponent /> */}
+        <CustomListComponent />
       </ScrollView>
     </View>
   );
