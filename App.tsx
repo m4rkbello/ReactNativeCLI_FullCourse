@@ -7,6 +7,7 @@ import PropsParentComponent from "./components/PropsComponent";
 import StyleComponent from "./components/StylesComponent";
 import TextInputComponent from "./components/TextInputComponent";
 import FormComponent from "./components/FormComponent";
+import FlatListComponent from "./components/FlatListComponent";
 
 const App = () => {
 
@@ -66,7 +67,8 @@ const App = () => {
 
         {/* <StyleComponent />
         <TextInputComponent /> */}
-        <FormComponent />
+        {/* <FormComponent /> */}
+        <FlatListComponent />
       </ScrollView>
     </View>
   );
