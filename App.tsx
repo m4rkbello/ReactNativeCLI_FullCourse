@@ -5,6 +5,7 @@ import ButtonAndOnPressEvents from "./components/ButtonAndOnPress";
 import UseStateComponent from "./components/UseStateComponent";
 import PropsParentComponent from "./components/PropsComponent";
 import StyleComponent from "./components/StylesComponent";
+import TextInputComponent from "./components/TextInputComponent";
 
 const App = () => {
 
@@ -63,7 +64,7 @@ const App = () => {
         */}
 
         <StyleComponent />
-
+        <TextInputComponent />
       </ScrollView>
     </View>
   );
