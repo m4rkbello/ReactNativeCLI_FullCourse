@@ -6,6 +6,7 @@ import UseStateComponent from "./components/UseStateComponent";
 import PropsParentComponent from "./components/PropsComponent";
 import StyleComponent from "./components/StylesComponent";
 import TextInputComponent from "./components/TextInputComponent";
+import FormComponent from "./components/FormComponent";
 
 const App = () => {
 
@@ -63,8 +64,9 @@ const App = () => {
         <PropsParentComponent />
         */}
 
-        <StyleComponent />
-        <TextInputComponent />
+        {/* <StyleComponent />
+        <TextInputComponent /> */}
+        <FormComponent />
       </ScrollView>
     </View>
   );
