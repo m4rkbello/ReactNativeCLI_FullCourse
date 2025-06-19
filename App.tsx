@@ -4,6 +4,7 @@ import ComponentData from "./components/ComponentData";
 import ButtonAndOnPressEvents from "./components/ButtonAndOnPress";
 import UseStateComponent from "./components/UseStateComponent";
 import PropsParentComponent from "./components/PropsComponent";
+import StyleComponent from "./components/StylesComponent";
 
 const App = () => {
 
@@ -17,13 +18,14 @@ const App = () => {
     <View>
       <ScrollView>
 
+        {/* 
         <Text style={{ fontSize: 50 }}>
           ULOL  HAHAAAA!
         </Text>
         <Text style={{ fontSize: 50 }}>
           PADAYON BUGO!
         </Text>
-        {/** SELF CLOSING TAG */}
+ 
         <Button title='CLICK ME' color={"violet"} />
         <Text style={{ fontSize: 30 }}>{choy}</Text>
         <Text style={{ fontSize: 30 }}>{fname + " " + lname}</Text>
@@ -56,7 +58,11 @@ const App = () => {
         <ListProgrammers />
         <ButtonAndOnPressEvents />
         <UseStateComponent />
+
         <PropsParentComponent />
+        */}
+
+        <StyleComponent />
 
       </ScrollView>
     </View>
