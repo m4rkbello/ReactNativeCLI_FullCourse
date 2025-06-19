@@ -9,6 +9,7 @@ import TextInputComponent from "./components/TextInputComponent";
 import FormComponent from "./components/FormComponent";
 import FlatListComponent from "./components/FlatListComponent";
 import CustomListComponent from "./components/CustomListComponent";
+import DynamicGridComponent from "./components/DynamicGridComponent";
 
 const App = () => {
 
@@ -70,7 +71,8 @@ const App = () => {
         <TextInputComponent /> */}
         {/* <FormComponent /> */}
         {/* <FlatListComponent /> */}
-        <CustomListComponent />
+        {/* <CustomListComponent /> */}
+        <DynamicGridComponent />
       </ScrollView>
     </View>
   );
