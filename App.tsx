@@ -68,7 +68,7 @@ const App = () => {
         {/* <StyleComponent />
         <TextInputComponent /> */}
         {/* <FormComponent /> */}
-        <FlatListComponent />
+        {/* <FlatListComponent /> */}
       </ScrollView>
     </View>
   );
