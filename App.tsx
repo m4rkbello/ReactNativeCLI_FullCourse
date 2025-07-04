@@ -74,6 +74,7 @@ const App = () => {
         {/* <FlatListComponent /> */}
         {/* <CustomListComponent /> */}
         {/* <DynamicGridComponent /> */}
+
         <GridComponent />
       </ScrollView>
     </View>
