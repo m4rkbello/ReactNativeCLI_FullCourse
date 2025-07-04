@@ -10,6 +10,7 @@ import FormComponent from "./components/FormComponent";
 import FlatListComponent from "./components/FlatListComponent";
 import CustomListComponent from "./components/CustomListComponent";
 import DynamicGridComponent from "./components/DynamicGridComponent";
+import GridComponent from "./components/GridComponent";
 
 const App = () => {
 
@@ -72,7 +73,8 @@ const App = () => {
         {/* <FormComponent /> */}
         {/* <FlatListComponent /> */}
         {/* <CustomListComponent /> */}
-        <DynamicGridComponent />
+        {/* <DynamicGridComponent /> */}
+        <GridComponent />
       </ScrollView>
     </View>
   );
