@@ -11,6 +11,7 @@ import FlatListComponent from "./components/FlatListComponent";
 import CustomListComponent from "./components/CustomListComponent";
 import DynamicGridComponent from "./components/DynamicGridComponent";
 import GridComponent from "./components/GridComponent";
+import ComponentLoopFlatList from "./components/ComponentLoopFlatList";
 
 const App = () => {
 
@@ -75,8 +76,9 @@ const App = () => {
         {/* <CustomListComponent /> */}
         {/* <DynamicGridComponent /> */}
 
-        <GridComponent />
+        {/* <GridComponent /> */}
       </ScrollView>
+      <ComponentLoopFlatList />
     </View>
   );
 };
