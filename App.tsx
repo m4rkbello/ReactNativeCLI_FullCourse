@@ -12,6 +12,8 @@ import CustomListComponent from "./components/CustomListComponent";
 import DynamicGridComponent from "./components/DynamicGridComponent";
 import GridComponent from "./components/GridComponent";
 import ComponentLoopFlatList from "./components/ComponentLoopFlatList";
+import SectionListComponent from "./components/SectionListComponent";
+
 
 const App = () => {
 
@@ -76,7 +78,8 @@ const App = () => {
         {/* <DynamicGridComponent /> */}
 
         {/* <GridComponent /> */}
-        <ComponentLoopFlatList />
+        {/* <ComponentLoopFlatList /> */}
+        <SectionListComponent />
       </ScrollView>
     </View>
   );
