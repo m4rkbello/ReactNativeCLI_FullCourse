@@ -15,11 +15,10 @@ import ComponentLoopFlatList from "./components/ComponentLoopFlatList";
 
 const App = () => {
 
-  let choy = "AYAW KOL BATA PAKO KOL!";
-  let fname = "MARK";
-  let lname = "BELLO";
-  const data = 30;
-
+  // let choy = "AYAW KOL BATA PAKO KOL!";
+  // let fname = "MARK";
+  // let lname = "BELLO";
+  // const data = 30;
 
   return (
     <View>
