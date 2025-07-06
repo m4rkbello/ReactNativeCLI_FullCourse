@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, View, Button, ScrollView } from 'react-native';
+import { Text, View, Button, ScrollView, FlatList } from 'react-native';
 import ComponentData from "./components/ComponentData";
 import ButtonAndOnPressEvents from "./components/ButtonAndOnPress";
 import UseStateComponent from "./components/UseStateComponent";
@@ -76,8 +76,8 @@ const App = () => {
         {/* <DynamicGridComponent /> */}
 
         {/* <GridComponent /> */}
+        <ComponentLoopFlatList />
       </ScrollView>
-      <ComponentLoopFlatList />
     </View>
   );
 };
