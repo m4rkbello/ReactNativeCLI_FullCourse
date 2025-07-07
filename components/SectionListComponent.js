@@ -6,30 +6,40 @@ const SectionListComponent = () => {
     const patotoya = [
         {
             id: 1,
-            data: 'padayon lang',
+            name: 'padayon lang',
+            data: ['php', 'JS', 'JAVA'],
         },
         {
             id: 2,
-            data: 'nakakita ang',
+            name: 'pakyow',
+            data: ['php', 'JS', 'JAVA'],
         },
         {
             id: 3,
-            data: 'Ginoo sa ',
+            name: 'pakyow',
+            data: ['php', 'JS', 'JAVA'],
         },
         {
             id: 4,
-            data: 'Imong mga',
+            name: 'pakyow',
+            data: ['php', 'JS', 'JAVA'],
         },
         {
             id: 5,
-            data: 'Paghago boi!',
+            name: 'pakyow',
+            data: ['php', 'JS', 'JAVA'],
         }
     ];
 
 
     return (
         <View>
-            <Text sty>SECTION LIST REACT NATIVE</Text>
+            <Text style={styles.headerText}>SECTION LIST REACT NATIVE</Text>
+            <SectionList
+                sections={patotoya}
+                renderItem={({ item }) => <Text style={{ marginLeft: 10, fontSize: 20 }}>{item}</Text>}
+                renderSectionHeader={({ section: { name } }) => <Text style={{ color: 'red', fontSize: 25 }}>{name}</Text>}
+            />
         </View>
     );
 }
