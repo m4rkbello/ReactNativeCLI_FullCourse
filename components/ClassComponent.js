@@ -3,7 +3,6 @@ import { StyleSheet, Text, View, TextInput, Button } from 'react-native';
 
 class ClassComponent extends Component {
 
-
     render() {
         return (
             <View>
