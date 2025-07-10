@@ -15,6 +15,7 @@ import ComponentLoopFlatList from "./components/ComponentLoopFlatList";
 import SectionListComponent from "./components/SectionListComponent";
 import ClassComponent from "./components/ClassComponent";
 import UseEffectHoockComponent from "./components/UseEffectHoockComponent";
+import UseEffectHookDidUpdateComponent from "./components/UseEffectHookDidUpdateComponent";
 
 
 const App = () => {
@@ -80,7 +81,8 @@ const App = () => {
         {/* <ComponentLoopFlatList /> */}
         {/* <SectionListComponent /> */}
         {/* <ClassComponent /> */}
-        <UseEffectHoockComponent />
+        {/* <UseEffectHoockComponent /> */}
+        <UseEffectHookDidUpdateComponent />
 
       </ScrollView>
     </View>
