@@ -8,6 +8,7 @@ class ClassComponent extends Component {
         super();
         this.state = {
             name: 'OUHAHAY',
+            name: 'OUHAHAY',
             age: 25
         }
     }

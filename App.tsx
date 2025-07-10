@@ -14,7 +14,7 @@ import GridComponent from "./components/GridComponent";
 import ComponentLoopFlatList from "./components/ComponentLoopFlatList";
 import SectionListComponent from "./components/SectionListComponent";
 import ClassComponent from "./components/ClassComponent";
-
+import UseEffectHoockComponent from "./components/UseEffectHoockComponent";
 
 
 const App = () => {
@@ -68,21 +68,20 @@ const App = () => {
         <ListProgrammers />
         <ButtonAndOnPressEvents />
         <UseStateComponent />
-
         <PropsParentComponent />
         */}
-
         {/* <StyleComponent />
         <TextInputComponent /> */}
         {/* <FormComponent /> */}
         {/* <FlatListComponent /> */}
         {/* <CustomListComponent /> */}
         {/* <DynamicGridComponent /> */}
-
         {/* <GridComponent /> */}
         {/* <ComponentLoopFlatList /> */}
         {/* <SectionListComponent /> */}
-        <ClassComponent />
+        {/* <ClassComponent /> */}
+        <UseEffectHoockComponent />
+
       </ScrollView>
     </View>
   );
