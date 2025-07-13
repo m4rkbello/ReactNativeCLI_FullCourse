@@ -16,6 +16,8 @@ import SectionListComponent from "./components/SectionListComponent";
 import ClassComponent from "./components/ClassComponent";
 import UseEffectHoockComponent from "./components/UseEffectHoockComponent";
 import UseEffectHookDidUpdateComponent from "./components/UseEffectHookDidUpdateComponent";
+import ShowHideComponent from "./components/ShowHideComponent";
+import UseEffectUnmountComponent from "./components/UseEffectUnmountComponent";
 
 
 const App = () => {
@@ -82,7 +84,10 @@ const App = () => {
         {/* <SectionListComponent /> */}
         {/* <ClassComponent /> */}
         {/* <UseEffectHoockComponent /> */}
-        <UseEffectHookDidUpdateComponent />
+        {/* <UseEffectHookDidUpdateComponent /> */}
+        {/* <ShowHideComponent /> */}
+
+        <UseEffectUnmountComponent />
 
       </ScrollView>
     </View>
